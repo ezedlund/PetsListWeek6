@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Pets</title>
+</head>
+<body>
+	<form action="addItemServlet" method="post">
+		<!-- Owner -->
+		Owner name: <input type="text" name="owner">
+		<!-- name -->
+		Pet name: <input type="text" name="name">
+		<!-- type -->
+		Pet type: <input type="text" name="type">
+		<!-- Submit -->
+		<input type="submit" value="Add Item">
+	</form>
+	<br />
+	<a href="viewAllItemsServlet">View the pet entries</a>
+	<br />
+	<a href="viewAllListsServlet">View the pet lists</a>
+	<br />
+	<a href="addItemsForListServlet">Create a list of pets</a>
+</body>
+</html>
